@@ -413,7 +413,7 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="blood" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="blood" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
   <project path="vendor/tmobile/apps/ThemeChooser" name="ValidusAOSP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="cm-11.0" />
