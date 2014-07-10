@@ -351,8 +351,6 @@
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Torch" name="packages_apps_Torch" remote="sr" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-11.0" />
-  <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sr" revision="kk4.4" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
@@ -364,7 +362,7 @@
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ls" revision="kitkat" />
-  <project path="packages/wallpapers/Liquid" name="android_liquid_wallpapers" remote="ls" revision="kitkat" />
+  <project path="packages/wallpapers/Liquid" name="android_wallpapers_liquid" remote="ls" revision="kitkat" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
