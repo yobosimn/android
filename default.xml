@@ -9,6 +9,9 @@
 
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
+		   
+  <remote  name="yobo"
+           fetch="git://github.com/yobosimn/" />
 
   <remote  name="ln"
            fetch="git://android.git.linaro.org/" />
@@ -417,7 +420,7 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="kitkat" >
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="yobo" revision="kitkat" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
 
